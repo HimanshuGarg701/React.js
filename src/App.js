@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import logo from './logo.svg';
-// import './App.css';
+import Footer from "./Footer";
+import Header from "./Header";
+import MainBody from "./MainBody";
+
 
 function App() {
   return (
     <div>
-      <h2>LIST OF UNOREDRED TASKS</h2>
-      <ul>
-        <li>This is TODO item One</li>
-        <li>This is TODO item Two</li>
-        <li>This is TODO item Three</li>
-      </ul>
+      <Header />
+      <MainBody />
+      <Footer />
     </div>
 
   );
